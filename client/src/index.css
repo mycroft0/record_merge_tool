@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.modal-table {
+    border: 2px solid black;
+    background-color: #b58ce1;
+}
+
+.modal-style {
+    width: 500px;
+    background-color: #b3d2e8;
+    border: 1px solid #949494;
+
+}
+
+td.modal-style:hover {
+    width: 500px;
+    background-color: #a5d1f3;
+    border: 1px solid #949494;
+
+}
+
+.main-container{
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.blur-wall{
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    margin: 0 auto;
+    background: rgba(180, 216, 250, 0.34);
+    filter: blur(2px);
+    backdrop-filter: blur(4px)
+}
+
+.modal-table-th{
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    background-color: #336eee;
+    color: white;
+}
+
+.modal-th{
+    text-align: center;
+    align-items: center;
+    background-color: #336eee;
+    color: white;
+}
+
+.row-modal-data{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+
+.modal-table{
+    align-items: center;
+    background-color: inherit;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    height: 40px;
+}
+
+.style-modal{
+    position: absolute;;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+}
+
+.modal-table-data{
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    background-color: inherit;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.modal-table-container:hover {
+    background-color: #f5f4f4;
+}
+
+
+.spinner{
+    top: 50%;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.merge-button {
+    bottom: 0;
+    position: fixed;
+
+}
+
+thead{
+    position: sticky;
+    top: 0;
+}
+
+.footer-style{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.main-table {
+    position: fixed;
+    top: 150px;
+    bottom: 40px;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-padding: 0;
+    align-items: center;
+    padding-right: 0;
+
+
+    border: 3px solid #156ccc;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+li {
+    height: 40px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #AAAAAA;
+    background-color: #9ebef5;
+    border-radius: 10px;
+    color: white;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.letter-button {
+    min-width: 0;
+}
+
+.pagination {
+    top: 90px
+}
+
+.MuiTablePaginationUnstyled-root {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.checkbox-style {
+    width: 30em;
+}
+
+
+.checkbox-style.td {
+    width: 10px;
+}
+
+thead {
+    background-color: white;
+}
+
+.myclass {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
